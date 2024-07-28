@@ -33,7 +33,8 @@ keymap("n", "<A-Right>", ":BufferLineCycleNext<CR>", opts)
 keymap("n", "<A-q>", ":bd<CR>", opts)
 -- Use w replace i
 keymap("n", "w", "i", opts)
-
+-- Toggle aerial
+keymap("n", "<A-a>", "<cmd>AerialToggle!<CR>", opts)
 -- Insert --
 -- Use '<leader>qq' to exit insert mode
 keymap("i", "<A-q>", "<ESC>", opts)
